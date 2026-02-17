@@ -25,3 +25,5 @@
 
 ### Запуск проекта
     python manage.py runserver
+
+![](quizslides/quizslides/5233485768817316322.jpg)
