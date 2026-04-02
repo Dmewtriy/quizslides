@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'quizslides.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'quizslides_bd',        
+        'USER': 'postgres',
+        'PASSWORD': 'GroupconnectedBD',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
